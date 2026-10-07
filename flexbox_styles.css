@@ -67,6 +67,35 @@ main {
     text-align: center;
 }
 
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 6rem;
+} 
+
+.footer-section:first-child {
+    padding-right: 0;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.social-links > a,
+.footer-section > a {
+    margin: 0.5rem 1.5rem 0.5rem 0;
+}
+
 
 /* 
 Challenge: Use flexbox in media queries to create a responsive layout 
